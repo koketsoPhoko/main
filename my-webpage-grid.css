@@ -1,0 +1,53 @@
+body{
+    background-color: whitesmoke;
+}
+
+
+header img{
+    width: 150px;
+    height: 150px;
+}
+
+
+.col-5 img{
+    width: 350px;
+    height: 280px;
+}
+
+
+
+table{
+    text-align: left;   
+}
+
+table, th, td{
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+
+footer img{
+    width: 100px;
+    height: 150px;
+}
+.col-9 p{
+    font-size: 14px;
+}
+
+
+
+@media screen and (max-width: 750px) {
+
+header{
+    text-align: center;
+}
+
+.col-5 img{
+    width: 100%;
+    height: 300px;
+}
+
+
+
+}
+
